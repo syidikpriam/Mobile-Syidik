@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('E:\\APIDemos.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - OS'), 0)
+Mobile.tap(findTestObject('Object Repository/Full Code/Button - Preference'), 5)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - SMS Messaging'), 0)
+Mobile.tap(findTestObject('Object Repository/Full Code/Button - Preference dependencies'), 5)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.CheckBox - Enable SMS broadcast receiver'), 0)
+Mobile.tap(findTestObject('Object Repository/Full Code/CheckBox - wifi'), 5)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText'), '081287165093', 0)
+Mobile.tap(findTestObject('Object Repository/Full Code/Button - Wifi'), 5)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText (1)'), 'Syidik Priambodo', 0)
+Mobile.setText(findTestObject('Object Repository/Full Code/Form - Edit Text'), 'Syidik Priambodo', 5)
+
+Mobile.tap(findTestObject('Object Repository/Full Code/Button - Oke'), 5)
 
 Mobile.closeApplication()
 
