@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-Mobile No Code</name>
+   <name>TC-Mobile Full Code - Practical Exercise 8</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>618a0bc0-4873-4bb5-bdfe-ac719dd75e5e</testCaseGuid>
+   <testCaseGuid>db76e04e-c0f3-4aec-8f85-c6d4140e5d21</testCaseGuid>
 </TestCaseEntity>
